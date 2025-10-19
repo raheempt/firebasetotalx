@@ -70,6 +70,5 @@ class AuthProvider with ChangeNotifier {
     }
   }
 
-  /// ✅ For resending or reusing verificationId
   String get verificationId => _verificationId;
 }

@@ -54,7 +54,6 @@ class HomeScreenProvider with ChangeNotifier {
 
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
-  /// 🔹 Fetch all users from Firestore
   Future<void> getAllUsers() async {
     _state = HomeScreenState.loading;
     notifyListeners();
